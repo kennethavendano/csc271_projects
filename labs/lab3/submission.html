@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission Page</title>
+</head>
+<body style="background-color:springgreen">
+    <h1>Submission Page</h1>
+    <hr>
+    <form action="index.html">
+        <label for="recipeName">Recipe Name:</label><br>
+        <input type="text" id="recipeName" name="recipeName"><br>
+
+        <br>
+
+        <label for="ingredients">Ingredients and Instructions:</label><br>
+        <textarea id="ingredients" name="ingredients" rows="3" cols="20"></textarea><br>
+      
+        <br>
+
+        <label>Difficulty Level:</label><br>
+        <input type="radio" id="easy" name="difficulty" value="Easy">
+        <label for="easy">Easy</label><br>
+        <input type="radio" id="medium" name="difficulty" value="Medium">
+        <label for="medium">Medium</label><br>
+        <input type="radio" id="hard" name="difficulty" value="Hard">
+        <label for="hard">Hard</label><br>
+        
+        <br>
+      
+        <label>Dietary Preferences:</label><br>
+        <input type="checkbox" id="vegetarian" name="diet" value="Vegetarian">
+        <label for="vegetarian">Vegetarian</label><br>
+        <input type="checkbox" id="vegan" name="diet" value="Vegan">
+        <label for="vegan">Vegan</label><br>
+        <input type="checkbox" id="glutenFree" name="diet" value="Gluten-Free">
+        <label for="glutenFree">Gluten-Free</label><br>
+        <input type="checkbox" id="dairyFree" name="diet" value="Dairy-Free">
+        <label for="dairyFree">Dairy-Free</label><br>
+        <input type="checkbox" id="Contains Nuts" name="diet" value="Contains Nuts">
+        <label for="Contains Nuts">Contains Nuts</label><br>
+        
+        
+        <br>
+      
+        <input type="submit" value="Submit Recipe">
+      </form>
+</body>
+</html>
