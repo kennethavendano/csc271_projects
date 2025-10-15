@@ -5,98 +5,121 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Players</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <h1>Fantasy Football 101</h1>
-    <img src="images/logo2.jpg" alt="Supergero with the caption FantasySidekick "style="width:200px;height:200px;"> <br>
-    <ul>
-        <li><a href="landingPage.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="tools.html">Tools</a></li>
-    </ul>
+    <header>
+        <div class="header-container">
+            <div class="header-left">
+                <a href="landingPage.html" class="logo">
+                    <img src="images/logo2.jpg" alt="FantasySidekick logo" class="logo-img" />
+                </a>
+            </div>
 
-    <hr>
-    <img src="images/49ersStadium.jpg" alt="Wide view of the 49ers home stadium"style="width: 500px;height: 200px"><br>
-    <p><strong>What is Fantasy Football?</strong></p>
-    <p>Fantasy football is a game where you act as the manager of a virtual team composed of real-life NFL players, competing against other managers in a league. Your team's success depends on the actual, statistical performance of those players in real-world games, which generate points based on various actions like touchdowns, yards, and catches. You draft your players, set weekly lineups, and can make trades to build a championship-caliber team and win weekly head-to-head matchups within your league. </p>
-    <p><strong>How To Play:</strong></p>
+            <div class="header-right">
+                <nav class="nav-links">
+                    <a href="landingPage.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="tools.html">Tools</a>
+                    <a href="players.html" class="active">Players</a>
+                </nav>
+            </div>
+        </div>
+    </header>
 
-    <ol>
-        <li>Draft a Team</li>
-        <li>Set Your Lineup</li>
-        <li>Earn Points</li>
-        <li>Compete Weekly</li>
-        <li>Make Trades</li>
-        <li>Win the Playoffs</li>
-    </ol>
+    <div class="content">
+        <img id="49ers" src="images/49ersStadium.jpg" alt="Wide view of the 49ers home stadium"
+            style="width: 500px;height: 200px"><br>
+        <p><strong>What is Fantasy Football?</strong></p>
+        <p>Fantasy football is a game where you act as the manager of a virtual team composed of real-life NFL players,
+            competing against other managers in a league. Your team's success depends on the actual, statistical
+            performance of those players in real-world games, which generate points based on various actions like
+            touchdowns, yards, and catches. You draft your players, set weekly lineups, and can make trades to build a
+            championship-caliber team and win weekly head-to-head matchups within your league. </p>
+        <p><strong>How To Play:</strong></p>
 
-    <p><strong>Team Example:</strong></p>
-    <table>
-        <tr>
-            <th>QB</th>
-            <td>Jordan Love</td>
-        </tr>
-        <tr>
-            <th>RB</th>
-            <td>Breece Hall</td>
-        </tr>
-        <tr>
-            <th>RB</th>
-            <td>Ashton Jeanty</td>
-        </tr>
-        <tr>
-            <th>WR</th>
-            <td>Davante Adams</td>
-        </tr>
-        <tr>
-            <th>WR</th>
-            <td>Quentin Johnston</td>
-        </tr>
-        <tr>
-            <th>TE</th>
-            <td>Trey McBride</td>
-        </tr>
-        <tr>
-            <th>FLEX</th>
-            <td>Devonta Smith</td>
-        </tr>
-        <tr>
-            <th>D/ST</th>
-            <td>Vikings D/ST</td>
-        </tr>
-        <tr>
-            <th>K</th>
-            <td>Matt Prater</td>
-        </tr>
-    </table><br>
+        <ol>
+            <li>Draft a Team</li>
+            <li>Set Your Lineup</li>
+            <li>Earn Points</li>
+            <li>Compete Weekly</li>
+            <li>Make Trades</li>
+            <li>Win the Playoffs</li>
+        </ol>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Q8li0JI1wOQ?si=v5O6nWdMjd7SdjMi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <form action="landingPage.html">
-        <label for="fname">First Name:</label><br>
-        <input type="text" name="fName" id="fname" required><br>
-        <br>
+        <p><strong>Team Example:</strong></p>
+        <table class="table">
+            <tbody>
+                <tr>
+                    <th scope="row">QB</th>
+                    <td>Jordan Love</td>
+                </tr>
+                <tr>
+                    <th scope="row">RB</th>
+                    <td>Breece Hall</td>
+                </tr>
+                <tr>
+                    <th scope="row">RB</th>
+                    <td>Ashton Jeanty</td>
+                </tr>
+                <tr>
+                    <th scope="row">WR</th>
+                    <td>Davante Adams</td>
+                </tr>
+                <tr>
+                    <th scope="row">WR</th>
+                    <td>Quentin Johnston</td>
+                </tr>
+                <tr>
+                    <th scope="row">TE</th>
+                    <td>Trey McBride</td>
+                </tr>
+                <tr>
+                    <th scope="row">FLEX</th>
+                    <td>DeVonta Smith</td>
+                </tr>
+                <tr>
+                    <th scope="row">D/ST</th>
+                    <td>Vikings D/ST</td>
+                </tr>
+                <tr>
+                    <th scope="row">K</th>
+                    <td>Matt Prater</td>
+                </tr>
+            </tbody>
+        </table>
 
-        <label for="lName">Last Name</label><br>
-        <input type="text" name="lName" id="lName" required><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Q8li0JI1wOQ?si=v5O6nWdMjd7SdjMi"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <form action="landingPage.html">
+            <label for="fname">First Name:</label><br>
+            <input type="text" name="fName" id="fname" required><br>
+            <br>
 
-        <br>
+            <label for="lName">Last Name</label><br>
+            <input type="text" name="lName" id="lName" required><br>
 
+            <br>
 
-
-        <label>How Difficult Do You Find Fantasy Football to Be?</label><br>
-        <input type="radio" id="easy" name="difficulty" value="Easy">
-        <label for="easy">Easy</label><br>
-        <input type="radio" id="medium" name="difficulty" value="Medium">
-        <label for="medium">Medium</label><br>
-        <input type="radio" id="hard" name="difficulty" value="Hard">
-        <label for="hard">Hard</label><br>        
-        <br>
-        <input type="submit" value="Submit">
-      </form>
+            <label>How Difficult Do You Find Fantasy Football to Be?</label><br>
+            <input type="radio" id="easy" name="difficulty" value="Easy">
+            <label for="easy">Easy</label><br>
+            <input type="radio" id="medium" name="difficulty" value="Medium">
+            <label for="medium">Medium</label><br>
+            <input type="radio" id="hard" name="difficulty" value="Hard">
+            <label for="hard">Hard</label><br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 </body>
+
 </html>
