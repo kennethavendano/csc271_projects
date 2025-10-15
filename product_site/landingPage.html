@@ -5,45 +5,56 @@
  -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>homePage</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <h1>Welcome To Fantasy Sidekick</h1>
-    <!--
-    I want to add a Horz Nav Bar so I used W3 schools for help 
-    https://www.w3schools.com/css/css_navbar_horizontal.asp-->
-    <ul>
-        <li><a href="landingPage.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="tools.html">Tools</a></li>
-    </ul>
+    <header>
+        <div class="header-container">
+            <div class="header-left">
+                <a href="landingPage.html" class="logo">
+                    <img src="images/logo2.jpg" alt="FantasySidekick logo" class="logo-img" />
+                </a>
+            </div>
+
+            <div class="header-right">
+                <nav class="nav-links">
+                    <a href="landingPage.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="tools.html">Tools</a>
+                    <a href="players.html" class="active">Players</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="content">
+
+        <h2>#1 Fantasy Assistant</h2>
+        <p>Managing fantasy teams can be <Strong>stressful</Strong>. Between <strong>injuires</strong>,
+            <strong>trades</strong>, and <strong>weekly matchups</strong>, its easy to get lost in stats and second
+            guess decisions!
+        </p>
+        <p>From this page you can navigate to the other pages and see your current lineups, tools and learn more about
+            our upcoming changes</p>
+
+        <p>We support:</p>
+        <ul>
+            <li><a href="">Yahoo Fantasy</a></li>
+            <li><a href="">Sleeper Fantasy</a></li>
+            <li><a href="">ESPN Fantasy</a></li>
+        </ul>
+
+    </div>
+
     
-    
-
-    <hr>
-    
-    <h2>#1 Fantasy Assistant</h2>
-    <p>Managing fantasy teams can be <Strong>stressful</Strong>. Between <strong>injuires</strong>, <strong>trades</strong>, and <strong>weekly matchups</strong>, its easy to get lost in stats and second guess decisions!</p>
-    <p>From this page you can navigate to the other pages and see your current lineups, tools and learn more about our upcoming changes</p>
-
-    <!--I plan on making a new logo-->
-    <!--https://www.w3schools.com/html/html_images.asp-->
-
-
-    <!--List of fantasy sites we are partnered with-->
-    <p>We support:</p>
-    <ul>
-        <li><a href="">Yahoo Fantasy</a></li>
-        <li><a href="">Sleeper Fantasy</a></li>
-        <li><a href="">ESPN Fantasy</a></li>
-    </ul>
-
-
-
 
 </body>
+
 </html>
