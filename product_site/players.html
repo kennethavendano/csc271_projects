@@ -5,118 +5,145 @@
  -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Players</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Track your fantasy football players, view stats, and manage your team with FantasySidekick's smart lineup tools and live updates.">
+
+  <meta property="og:title" content="Fantasy Football Lineup Tracker | FantasySidekick">
+  <meta property="og:description" content="Track your fantasy football players, view stats, and manage your lineup with ease.">
+  <meta property="og:image" content="https://kennethavendano.rhody.dev/csc271_projects/product_site/images/logo2.jpg">
+  <meta property="og:url" content="https://kennethavendano.rhody.dev/csc271_projects/product_site/players.html">
+  <meta property="og:type" content="website">
+
+
+  <title>Fantasy Football Manager</title>
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FC0HD37PD9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FC0HD37PD9');
+</script>
+
 </head>
+
 <body>
 
-    <header>
-        <div class="header-container">
-            <div class="header-left">
-                <a href="landingPage.html" class="logo">
-                    <img src="images/logo2.jpg" alt="FantasySidekick logo" class="logo-img" />
-                </a>
-            </div>
+  <header>
+    <div class="header-container">
+      <div class="header-left">
+        <a href="landingPage.html" class="logo">
+          <img src="images/logo2.jpg" alt="FantasySidekick logo" class="logo-img" />
+        </a>
+      </div>
 
-            <div class="header-right">
-                <nav class="nav-links">
-                    <a href="landingPage.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="tools.html">Tools</a>
-                    <a href="players.html" class="active">Players</a>
-                </nav>
-            </div>
-        </div>
-    </header>
-
-    <div class="content">
-        <table class="roster-table">
-            <thead>
-              <tr>
-                <th scope="col">Pos</th>
-                <th scope="col">Player</th>
-                <th scope="col">Last Game Pts</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">QB</th>
-                <td class="player-cell">
-                  <img class="avatar" src="images/jordan-love.png" alt="" />
-                  <p>Jordan Love</p>
-                </td>
-                <td class="pts">18.4</td>
-              </tr>
-              <tr>
-                <th scope="row">RB</th>
-                <td class="player-cell">
-                  <img class="avatar" src="images/breece-hall.png" alt="" />
-                  <p>Breece Hall</p>
-                </td>
-                <td class="pts">21.7</td>
-              </tr>
-              <tr>
-                <th scope="row">RB</th>
-                <td class="player-cell">
-                  <img class="avatar" src="images/ashton-jeanty.png" alt="" />
-                  <p>Ashton Jeanty</p>
-                </td>
-                <td class="pts">16.2</td>
-              </tr>
-              <tr>
-                <th scope="row">WR</th>
-                <td class="player-cell">
-                  <img class="avatar" src="images/davante-adams.png" alt="" />
-                  <p>Davante Adams</p>
-                </td>
-                <td class="pts">14.9</td>
-              </tr>
-              <tr>
-                <th scope="row">WR</th>
-                <td class="player-cell">
-                  <img class="avatar" src="images/quentin-johnston.png" alt="" />
-                  <p>Quentin Johnston</p>
-                </td>
-                <td class="pts">9.3</td>
-              </tr>
-              <tr>
-                <th scope="row">TE</th>
-                <td class="player-cell">
-                  <img class="avatar" src="images/trey-mcbride.png" alt="" />
-                  <p>Trey McBride</p>
-                </td>
-                <td class="pts">12.6</td>
-              </tr>
-              <tr>
-                <th scope="row">FLEX</th>
-                <td class="player-cell">
-                  <img class="avatar" src="images/devonta-smith.png" alt="" />
-                  <p>DeVonta Smith</p>
-                </td>
-                <td class="pts">13.1</td>
-              </tr>
-              <tr>
-                <th scope="row">D/ST</th>
-                <td class="player-cell">
-                  <img class="avatar" src="images/vikings.png" alt="" />
-                  <p>Vikings D/ST</p>
-                </td>
-                <td class="pts">8.0</td>
-              </tr>
-              <tr>
-                <th scope="row">K</th>
-                <td class="player-cell">
-                  <img class="avatar" src="images/matt-prater.png" alt="" />
-                  <p>Matt Prater</p>
-                </td>
-                <td class="pts">7.0</td>
-              </tr>
-            </tbody>
-          </table>
+      <div class="header-right">
+        <nav class="nav-links">
+          <a href="Free Fantasy Football Assistant.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="tools.html">Tools</a>
+          <a href="players.html" class="active">Players</a>
+        </nav>
+      </div>
     </div>
-    
+  </header>
+
+  <h1>Fantasy Football Lineup Manager</h1>
+
+  <div class="content">
+    <table class="roster-table">
+      <thead>
+        <tr>
+          <th scope="col">Pos</th>
+          <th scope="col">Player</th>
+          <th scope="col">Last Game Pts</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">QB</th>
+          <td class="player-cell">
+            <img class="avatar" src="images/jordan-love.png" alt="" />
+            <p>Jordan Love</p>
+          </td>
+          <td class="pts">18.4</td>
+        </tr>
+        <tr>
+          <th scope="row">RB</th>
+          <td class="player-cell">
+            <img class="avatar" src="images/breece-hall.png" alt="" />
+            <p>Breece Hall</p>
+          </td>
+          <td class="pts">21.7</td>
+        </tr>
+        <tr>
+          <th scope="row">RB</th>
+          <td class="player-cell">
+            <img class="avatar" src="images/ashton-jeanty.png" alt="" />
+            <p>Ashton Jeanty</p>
+          </td>
+          <td class="pts">16.2</td>
+        </tr>
+        <tr>
+          <th scope="row">WR</th>
+          <td class="player-cell">
+            <img class="avatar" src="images/davante-adams.png" alt="" />
+            <p>Davante Adams</p>
+          </td>
+          <td class="pts">14.9</td>
+        </tr>
+        <tr>
+          <th scope="row">WR</th>
+          <td class="player-cell">
+            <img class="avatar" src="images/quentin-johnston.png" alt="" />
+            <p>Quentin Johnston</p>
+          </td>
+          <td class="pts">9.3</td>
+        </tr>
+        <tr>
+          <th scope="row">TE</th>
+          <td class="player-cell">
+            <img class="avatar" src="images/trey-mcbride.png" alt="" />
+            <p>Trey McBride</p>
+          </td>
+          <td class="pts">12.6</td>
+        </tr>
+        <tr>
+          <th scope="row">FLEX</th>
+          <td class="player-cell">
+            <img class="avatar" src="images/devonta-smith.png" alt="" />
+            <p>DeVonta Smith</p>
+          </td>
+          <td class="pts">13.1</td>
+        </tr>
+        <tr>
+          <th scope="row">D/ST</th>
+          <td class="player-cell">
+            <img class="avatar" src="images/vikings.png" alt="" />
+            <p>Vikings D/ST</p>
+          </td>
+          <td class="pts">8.0</td>
+        </tr>
+        <tr>
+          <th scope="row">K</th>
+          <td class="player-cell">
+            <img class="avatar" src="images/matt-prater.png" alt="" />
+            <p>Matt Prater</p>
+          </td>
+          <td class="pts">7.0</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
 </body>
+
 </html>
