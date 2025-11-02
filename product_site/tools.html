@@ -9,14 +9,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Use FantasySidekick's fantasy football tools like the trade analyzer, start/sit helper, and matchup tracker to make smarter decisions.">
-   
+    <meta name="description"
+        content="Use FantasySidekick's fantasy football tools like the trade analyzer, start/sit helper, and matchup tracker to make smarter decisions.">
+
     <meta property="og:title" content="Fantasy Football Tools | Trade Analyzer & Start/Sit Helper">
-    <meta property="og:description" content="Analyze trades, compare players, and optimize lineups with FantasySidekick's advanced fantasy tools.">
+    <meta property="og:description"
+        content="Analyze trades, compare players, and optimize lineups with FantasySidekick's advanced fantasy tools.">
     <meta property="og:image" content="https://kennethavendano.rhody.dev/csc271_projects/product_site/images/logo2.jpg">
     <meta property="og:url" content="https://kennethavendano.rhody.dev/csc271_projects/product_site/players.html">
     <meta property="og:type" content="website">
-   
+
     <title>Fantasy Football Tools</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -52,8 +54,29 @@
             <li>Waiver Wire Advice</li>
             <li>Fantasy Football Start/Sit</li>
         </ul>
-    </div>
 
+
+
+        <h2>Fantasy Points Calculator</h2>
+
+        <label>Passing Yards:
+            <input id="passYds" type="number" value="0">
+        </label><br>
+
+        <label>Rushing Yards:
+            <input id="rushYds" type="number" value="0">
+        </label><br>
+
+        <label>Receiving Yards:
+            <input id="recYds" type="number" value="0">
+        </label><br><br>
+
+        <button id="calcBtn">Calculate</button>
+
+        <h3 id="finalPoints">Total Fantasy Points: —</h3>
+
+    </div>
+    <script src="js/fp.js"></script>
 </body>
 
 </html>
