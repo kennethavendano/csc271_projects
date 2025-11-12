@@ -7,9 +7,8 @@ recInput  = document.getElementById("recYds");
 finalPoints  = document.getElementById("finalPoints");
 calcBtn   = document.getElementById("calcBtn");
 
-const allInputs = document.querySelectorAll("input");
+allInputs = document.querySelectorAll("input");
 
-// --- Calculate + display ---
 function calculatePoints() {
   var pass = Number(passInput.value);
   var rush = Number(rushInput.value);
