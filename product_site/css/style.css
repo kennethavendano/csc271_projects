@@ -83,15 +83,6 @@ body{
     background-color:#f0a04b;
 }
 
-#football {
-    width: 50px;        
-    height: auto;       
-    position: absolute; 
-    cursor: grab;
-    top: 200px;          
-    left: 200px;        
-    margin: 0;          
-}
 
 
 
