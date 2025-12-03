@@ -1,0 +1,4 @@
+For my product site I will use a fantasyplayer object to represent each player in a user's fantasy football lineup on the players page. Each object stores the players position, name, last game points, risk level and the id of the table cell where the start/sit recommendations will appear. There will also be functions to get the risk level and calculate if the player should start or sit them. 
+
+
+Drawing: https://docs.google.com/document/d/11f2WrXOeWCHpGN1WdsFQ-nme325b0Z0WnDfsCMpfryk/edit?usp=sharing
