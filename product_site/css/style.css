@@ -79,9 +79,34 @@ img{
     width: 40px;
 }
 
+
 body{
     background-color:#f0a04b;
 }
+
+.stats-form {
+    max-width: 400px;
+    background: #f0a04b;
+    padding: 20px 22px;
+    border-radius: 12px;
+    margin: 20px auto;
+  }
+
+  #calcBtn {
+    margin-top: 15px;
+    padding: 10px 14px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #2058b8;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+
+  #calcBtn:hover{
+    background: #2058b8ea;
+  }
 
 
 

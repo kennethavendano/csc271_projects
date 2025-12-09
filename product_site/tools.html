@@ -27,7 +27,7 @@
     <header>
         <div class="header-container">
             <div class="header-left">
-                <a href="landingPage.html" class="logo">
+                <a href="home.html" class="logo">
                     <img src="images/logo2.jpg" alt="FantasySidekick logo" class="logo-img" />
                 </a>
             </div>
@@ -56,27 +56,41 @@
         </ul>
 
 
+        <div class="stats-form">
 
-        <h2>Fantasy Points Calculator</h2>
+            <h2>Fantasy Points Calculator</h2>
 
-        <label>Passing Yards:
-            <input id="passYds" type="number" value="0">
-        </label><br>
+            <label>Passing Yards:
+                <input id="passYds" type="number" value="0">
+            </label><br>
 
-        <label>Rushing Yards:
-            <input id="rushYds" type="number" value="0">
-        </label><br>
+            <label>Rushing Yards:
+                <input id="rushYds" type="number" value="0">
+            </label><br>
 
-        <label>Receiving Yards:
-            <input id="recYds" type="number" value="0">
-        </label><br><br>
+            <label>Receiving Yards:
+                <input id="recYds" type="number" value="0">
+            </label><br> <br>
 
-        <button id="calcBtn">Calculate</button>
 
-        <h3 id="finalPoints">Total Fantasy Points: —</h3>
+            <label>Passing Touchdowns:
+                <input id="passTD" type="number" value="0">
+            </label><br>
 
+            <label>Rushing Touchdowns:
+                <input id="rushTD" type="number" value="0">
+            </label><br>
+
+            <label>Receiving Touchdowns:
+                <input id="recTD" type="number" value="0">
+            </label><br>
+
+            <button id="calcBtn">Calculate</button>
+
+            <h3 id="finalPoints">Total Fantasy Points: —</h3>
+        </div>
     </div>
-    <script src="js/fantasy.js"></script>
+    <script src="js/fp.js"></script>
 </body>
 
 </html>
